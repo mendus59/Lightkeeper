@@ -36,11 +36,15 @@ export default function Sheet({ lighthouse: l, sources }: Props) {
 
   const facts: [string, string | null | undefined][] = [
     ["First lit", l.firstLit],
+    ["Established", l.established],
     ["Current tower", l.towerBuilt],
+    ["Deactivated", l.deactivated],
     ["Height", l.heightFt ? `${l.heightFt} ft` : null],
     ["Status", l.status],
     ["Owner / manager", l.owner],
+    ["Heritage listing", l.heritage?.length ? l.heritage.join("; ") : null],
   ];
+  const histSource = l.historySources.map((id) => byId.get(id)).find((s) => s?.license);
 
   return (
     <article className="sheet" aria-live="polite">
@@ -60,13 +64,25 @@ export default function Sheet({ lighthouse: l, sources }: Props) {
           ))}
       </dl>
 
+      {l.stateNote && <p className="checked">{l.stateNote}</p>}
+
       <h3>History</h3>
-      {l.history.map((p, i) => (
-        <p key={i}>
-          {p}
-          {i === l.history.length - 1 && cite(l.historySources)}
+      {l.history.length ? (
+        l.history.map((p, i) => (
+          <p key={i}>
+            {p}
+            {i === l.history.length - 1 && cite(l.historySources)}
+          </p>
+        ))
+      ) : (
+        <p className="none">No history from our sources yet.</p>
+      )}
+      {l.historyExcerpt && l.history.length > 0 && (
+        <p className="checked">
+          Quoted from {histSource?.title ?? "the cited source"}
+          {histSource?.license ? `, licensed ${histSource.license}` : ""}.
         </p>
-      ))}
+      )}
 
       <h3>Overnight stays</h3>
       {l.stay ? (
@@ -121,6 +137,7 @@ export default function Sheet({ lighthouse: l, sources }: Props) {
                 {s.title}
               </a>
               , accessed {s.accessed}
+              {s.license ? ` (text ${s.license})` : ""}
             </li>
           );
         })}

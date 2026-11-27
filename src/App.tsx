@@ -98,7 +98,8 @@ export default function App() {
 
       <footer>
         Facts are drawn from the sources listed on each lighthouse, accessed {data.generated}. Booking details change; confirm
-        with the operator before you travel.
+        with the operator before you travel. History marked as quoted is excerpted from Wikipedia under CC BY-SA 4.0;
+        facts marked with a Wikidata source come from Wikidata (CC0).
       </footer>
     </div>
   );

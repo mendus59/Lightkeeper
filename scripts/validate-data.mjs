@@ -22,8 +22,11 @@ for (const l of data.lighthouses) {
   ids.add(l.id);
   if (!/^[a-z0-9-]+$/.test(l.id)) errors.push(`${at}: id must be lowercase letters, digits and hyphens`);
   for (const k of ["name", "state", "place"]) if (!l[k]) errors.push(`${at}: missing ${k}`);
-  // Loose box covering the states, Alaska, Hawaii and the territories.
-  if (!(l.lat > 13 && l.lat < 72 && l.lon > -180 && l.lon < -64) && !(l.lat > 13 && l.lat < 20 && l.lon > 144 && l.lon < 146))
+  // Loose boxes covering the states, Alaska, Hawaii, the territories and the Pacific minor outlying islands.
+  const inStates = l.lat > 13 && l.lat < 72 && l.lon > -180 && l.lon < -64;
+  const westPacific = l.lat > 13 && l.lat < 21 && l.lon > 144 && l.lon < 167; // Guam, Northern Marianas, Wake
+  const centralPacific = l.lat > -15 && l.lat < 30 && l.lon > -180 && l.lon < -150; // Midway, Baker, Jarvis, Samoa
+  if (!inStates && !westPacific && !centralPacific)
     errors.push(`${at}: coordinates ${l.lat},${l.lon} look outside the US`);
   if (!l.factSources?.length) errors.push(`${at}: facts need at least one source`);
   if (l.history?.length && !l.historySources?.length) errors.push(`${at}: history needs at least one source`);

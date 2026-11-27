@@ -25,8 +25,11 @@ A catalogue of US lighthouses: a map, a short sourced history of each one, where
 
 - Every fact, history and booking link cites a source in `data/lighthouses.json`, with the date it was read.
 - Nothing is written from memory. If a source doesn't say it, it isn't in the data.
+- The bulk of the catalogue is imported from Wikidata: every item that is a lighthouse in the US and has coordinates. Its facts cite the Wikidata item. Its history is quoted, not paraphrased, from the opening of the English Wikipedia article and cites it; that text is CC BY-SA 4.0 and is marked as a quote in the app. Lighthouses without a Wikipedia article have facts only.
 - Copyrighted sites (Lighthouse Digest, Lighthouse Friends and similar) are linked, not copied.
 - Booking details change. Each stay carries a `checked` date so stale links can be found and rechecked.
+
+To refresh the import, run `python3 scripts/fetch-wikidata.py WORKDIR` (downloads from Wikidata and Wikipedia, about an hour) and then `python3 scripts/import-wikidata.py WORKDIR` (needs `beautifulsoup4`). The import rebuilds the imported entries and leaves hand-checked ones, such as those with booking details, alone.
 
 `npm run validate` checks the data (coordinates, source ids, https links, dates) and runs before every build.
 
