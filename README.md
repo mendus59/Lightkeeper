@@ -8,7 +8,7 @@ A map and catalogue of more than 900 US lighthouses with sourced histories, keep
 
 - Browse lighthouses on a map, or search the list by name, place or state.
 - Filter to lighthouses and keeper's quarters that offer overnight stays, with booking details.
-- Each lighthouse has key facts, a short history where one is sourced, and links to public sites. Some list where keepers' logs are held.
+- Each lighthouse has key facts, public links and, where a source has one, a short history.
 - Every fact is cited to a numbered source, such as Wikidata or Wikipedia, with the date it was read.
 - Each lighthouse has its own shareable link.
 <!-- site-summary:end -->
