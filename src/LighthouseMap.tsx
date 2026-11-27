@@ -32,7 +32,7 @@ export default function LighthouseMap({ lights, selected, onSelect }: Props) {
   };
   return (
     <div className="mapbox">
-      <MapContainer center={[39.5, -98.35]} zoom={4} minZoom={2} scrollWheelZoom={false} className="map">
+      <MapContainer center={[39.5, -98.35]} zoom={4} minZoom={2} scrollWheelZoom={false} preferCanvas className="map">
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
