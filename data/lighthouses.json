@@ -1,0 +1,650 @@
+{
+ "generated": "2026-11-27",
+ "lighthouses": [
+  {
+   "id": "cape-hatteras",
+   "name": "Cape Hatteras Lighthouse",
+   "state": "NC",
+   "place": "Buxton, Hatteras Island, North Carolina",
+   "lat": 35.25056,
+   "lon": -75.528806,
+   "firstLit": "1871",
+   "towerBuilt": "1870",
+   "heightFt": 210,
+   "status": "Active aid to navigation",
+   "owner": "National Park Service (tower); US Coast Guard (light)",
+   "history": [
+    "The first tower on the cape was a sandstone light from 1802. The present brick tower was first lit on December 16, 1871.",
+    "Shoreline erosion threatened the tower for decades. The light moved to a steel skeleton tower in 1935 and came back to the brick tower in 1950. In 1999 the whole tower was moved 2,900 feet inland, a job finished on September 14, 1999."
+   ],
+   "factSources": [
+    "wp-cape_hatteras_lighthouse"
+   ],
+   "historySources": [
+    "wp-cape_hatteras_lighthouse"
+   ],
+   "links": [
+    {
+     "label": "Wikipedia article",
+     "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse"
+    },
+    {
+     "label": "National Park Service: Cape Hatteras Light Station",
+     "url": "https://www.nps.gov/caha/planyourvisit/chls.htm"
+    },
+    {
+     "label": "US Coast Guard History Office",
+     "url": "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/All/Article/1944529/cape-hatteras-lighthouse/"
+    }
+   ],
+   "stay": null,
+   "journals": [
+    {
+     "title": "Lighthouse Station Logs, 1872–1941 (RG 26, Entry 80)",
+     "holder": "National Archives, Washington, DC",
+     "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+     "note": "Federal keeper logs from 1872 on. Coverage for this station not yet checked; ask archives1reference@nara.gov"
+    }
+   ]
+  },
+  {
+   "id": "portland-head",
+   "name": "Portland Head Light",
+   "state": "ME",
+   "place": "Cape Elizabeth, Maine",
+   "lat": 43.62306,
+   "lon": -70.20778,
+   "firstLit": "1791",
+   "towerBuilt": "1791",
+   "heightFt": 80,
+   "status": "Active aid to navigation",
+   "owner": "Town of Cape Elizabeth (grounds, museum); US Coast Guard (light)",
+   "history": [
+    "Local masons began the tower in 1787 and it was first lit on January 10, 1791. The tower's height was raised and lowered several times in the 1800s before settling in 1885.",
+    "The light was automated in 1989, and the keeper's house is now a maritime museum run on the town-owned grounds."
+   ],
+   "factSources": [
+    "wp-portland_head_light"
+   ],
+   "historySources": [
+    "wp-portland_head_light"
+   ],
+   "links": [
+    {
+     "label": "Wikipedia article",
+     "url": "https://en.wikipedia.org/wiki/Portland_Head_Light"
+    },
+    {
+     "label": "Portland Head Light museum",
+     "url": "https://portlandheadlight.com/"
+    },
+    {
+     "label": "Maine Historic Preservation Commission",
+     "url": "https://www.maine.gov/mhpc/did-you-know/portland-head-light-1791-cape-elizabeth-cumberland-county"
+    }
+   ],
+   "stay": null,
+   "journals": [
+    {
+     "title": "Lighthouse Station Logs, 1872–1941 (RG 26, Entry 80)",
+     "holder": "National Archives, Washington, DC",
+     "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+     "note": "Federal keeper logs from 1872 on. Coverage for this station not yet checked; ask archives1reference@nara.gov"
+    }
+   ]
+  },
+  {
+   "id": "point-reyes",
+   "name": "Point Reyes Lighthouse",
+   "state": "CA",
+   "place": "Point Reyes National Seashore, California",
+   "lat": 37.995621,
+   "lon": -123.023215,
+   "firstLit": "1870",
+   "towerBuilt": "1870",
+   "heightFt": 35,
+   "status": "Automated 1975",
+   "owner": "Point Reyes National Seashore (NPS)",
+   "history": [
+    "The short cast-iron tower was built in 1870 low on the headland, so its light sits 265 feet above the sea. It was automated in 1975.",
+    "Its first-order Fresnel lens went through a 15-month restoration finished in November 2019. The station was listed on the National Register of Historic Places in 1991."
+   ],
+   "factSources": [
+    "wp-point_reyes_lighthouse"
+   ],
+   "historySources": [
+    "wp-point_reyes_lighthouse"
+   ],
+   "links": [
+    {
+     "label": "Wikipedia article",
+     "url": "https://en.wikipedia.org/wiki/Point_Reyes_Lighthouse"
+    },
+    {
+     "label": "NPS: Lighthouse history at Point Reyes",
+     "url": "https://www.nps.gov/pore/learn/historyculture/stories_maritime_lighthouse.htm"
+    }
+   ],
+   "stay": null,
+   "journals": [
+    {
+     "title": "Lighthouse Station Logs, 1872–1941 (RG 26, Entry 80)",
+     "holder": "National Archives, Washington, DC",
+     "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+     "note": "Federal keeper logs from 1872 on. Coverage for this station not yet checked; ask archives1reference@nara.gov"
+    }
+   ]
+  },
+  {
+   "id": "split-rock",
+   "name": "Split Rock Lighthouse",
+   "state": "MN",
+   "place": "Split Rock Lighthouse State Park, Two Harbors, Minnesota",
+   "lat": 47.20005,
+   "lon": -91.3669,
+   "firstLit": "1910",
+   "towerBuilt": "1910",
+   "heightFt": 54,
+   "status": "Retired 1969, now a museum",
+   "owner": "Minnesota Historical Society",
+   "history": [
+    "The lighthouse was built after the 1905 Mataafa Storm wrecked or damaged many ships on Lake Superior, and it was first lit on July 31, 1910 on a cliff about 130 feet above the lake.",
+    "It was electrified in 1940, its fog signal stopped in 1961, and the Coast Guard retired the light in 1969. It is now a historic site and was designated a National Historic Landmark in 2011."
+   ],
+   "factSources": [
+    "wp-split_rock_lighthouse"
+   ],
+   "historySources": [
+    "wp-split_rock_lighthouse"
+   ],
+   "links": [
+    {
+     "label": "Wikipedia article",
+     "url": "https://en.wikipedia.org/wiki/Split_Rock_Lighthouse"
+    },
+    {
+     "label": "Minnesota Historical Society: Split Rock history",
+     "url": "https://www.mnhs.org/splitrock/learn/history"
+    }
+   ],
+   "stay": null,
+   "journals": [
+    {
+     "title": "Split Rock keeper records (original, microfilm and copies)",
+     "holder": "Minnesota Historical Society",
+     "url": "https://libguides.mnhs.org/splitrock/primary",
+     "note": "Daily entries on station work, weather, shipping and visitors, per Wikipedia"
+    },
+    {
+     "title": "Lighthouse Station Logs, 1872–1941 (RG 26, Entry 80)",
+     "holder": "National Archives, Washington, DC",
+     "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+     "note": "Federal keeper logs from 1872 on. Coverage for this station not yet checked; ask archives1reference@nara.gov"
+    }
+   ]
+  },
+  {
+   "id": "ponce-inlet",
+   "name": "Ponce de Leon Inlet Light",
+   "state": "FL",
+   "place": "Ponce Inlet, Florida",
+   "lat": 29.0806167,
+   "lon": -80.9280167,
+   "firstLit": "1887",
+   "towerBuilt": "1887",
+   "heightFt": 175,
+   "status": "Private aid to navigation",
+   "owner": "Town of Ponce Inlet; museum run by the Ponce de Leon Inlet Lighthouse Preservation Association",
+   "history": [
+    "A first lighthouse went up on the inlet in 1835 but was never lit and collapsed the next year. The present 175-foot tower was finished and first lit in 1887.",
+    "The Coast Guard moved its beacon to New Smyrna Beach in 1970. High-rise buildings later blocked that beacon, so the old tower was relit in 1982 and now runs as a private aid to navigation."
+   ],
+   "factSources": [
+    "wp-ponce_de_leon_inlet_light"
+   ],
+   "historySources": [
+    "wp-ponce_de_leon_inlet_light"
+   ],
+   "links": [
+    {
+     "label": "Wikipedia article",
+     "url": "https://en.wikipedia.org/wiki/Ponce_de_Leon_Inlet_Light"
+    },
+    {
+     "label": "US Coast Guard History Office",
+     "url": "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/All/Article/1976629/ponce-de-leon-inlet-light/"
+    }
+   ],
+   "stay": null,
+   "journals": [
+    {
+     "title": "Lighthouse Station Logs, 1872–1941 (RG 26, Entry 80)",
+     "holder": "National Archives, Washington, DC",
+     "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+     "note": "Federal keeper logs from 1872 on. Coverage for this station not yet checked; ask archives1reference@nara.gov"
+    }
+   ]
+  },
+  {
+   "id": "pigeon-point",
+   "name": "Pigeon Point Lighthouse",
+   "state": "CA",
+   "place": "Pescadero, California",
+   "lat": 37.18175,
+   "lon": -122.393917,
+   "firstLit": "1872",
+   "towerBuilt": "1871",
+   "heightFt": 115,
+   "status": "Active aid to navigation",
+   "owner": "California State Parks; keeper housing run by HI USA",
+   "history": [
+    "The point takes its name from the ship Carrier Pigeon, wrecked there in 1853. The tower was first lit at sunset on November 15, 1872.",
+    "It switched from lard oil to kerosene in 1888, to electricity in 1926, and was automated in 1974. Tours have been closed since 2001 because of corroded ironwork; a $16 million rehabilitation was announced in December 2023."
+   ],
+   "factSources": [
+    "wp-pigeon_point_lighthouse"
+   ],
+   "historySources": [
+    "wp-pigeon_point_lighthouse"
+   ],
+   "links": [
+    {
+     "label": "Wikipedia article",
+     "url": "https://en.wikipedia.org/wiki/Pigeon_Point_Lighthouse"
+    },
+    {
+     "label": "California State Parks: Pigeon Point Light Station",
+     "url": "https://parks.ca.gov/?page_id=533"
+    }
+   ],
+   "stay": {
+    "kind": "Hostel in the keepers' houses",
+    "operator": "HI USA (Hostelling International USA)",
+    "notes": "Shared dorms and private rooms. The hostel page warns of daytime restoration work on site.",
+    "url": "https://www.hiusa.org/hostels/california/pescadero/pigeon-point-lighthouse-hostel",
+    "checked": "2026-11-27",
+    "sources": [
+     "hiusa"
+    ]
+   },
+   "journals": [
+    {
+     "title": "Lighthouse Station Logs, 1872–1941 (RG 26, Entry 80)",
+     "holder": "National Archives, Washington, DC",
+     "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+     "note": "Federal keeper logs from 1872 on. Coverage for this station not yet checked; ask archives1reference@nara.gov"
+    }
+   ]
+  },
+  {
+   "id": "heceta-head",
+   "name": "Heceta Head Light",
+   "state": "OR",
+   "place": "Near Yachats, Oregon",
+   "lat": 44.13737,
+   "lon": -124.127835,
+   "firstLit": "1894",
+   "towerBuilt": "1892",
+   "heightFt": 56,
+   "status": "Automated 1963",
+   "owner": "Oregon Parks and Recreation (light); US Forest Service (keeper's house)",
+   "history": [
+    "Approved in 1888, the station was built in 1892–93 with materials brought in by ship and wagon, and the light was first lit in 1894. Its first-order Fresnel lens is by Chance Brothers.",
+    "The light was automated in 1963 and the last keepers left. The tower closed for restoration in 2011 and reopened on June 8, 2013."
+   ],
+   "factSources": [
+    "wp-heceta_head_light"
+   ],
+   "historySources": [
+    "wp-heceta_head_light"
+   ],
+   "links": [
+    {
+     "label": "Wikipedia article",
+     "url": "https://en.wikipedia.org/wiki/Heceta_Head_Light"
+    },
+    {
+     "label": "US Lighthouse Society: Oregon stays",
+     "url": "https://uslhs.org/travel/lighthouse-accommodations/oregon"
+    }
+   ],
+   "stay": {
+    "kind": "Bed and breakfast in the 1894 keeper's house",
+    "operator": "WR Trillium Inc, under a US Forest Service permit",
+    "notes": "Six rooms, open year-round, with a multi-course breakfast and an afternoon wine and cheese social.",
+    "url": "https://www.hecetaheadlighthouse.com/",
+    "checked": "2026-11-27",
+    "sources": [
+     "heceta",
+     "uslhs-or"
+    ]
+   },
+   "journals": [
+    {
+     "title": "Lighthouse Station Logs, 1872–1941 (RG 26, Entry 80)",
+     "holder": "National Archives, Washington, DC",
+     "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+     "note": "Federal keeper logs from 1872 on. Coverage for this station not yet checked; ask archives1reference@nara.gov"
+    }
+   ]
+  },
+  {
+   "id": "saugerties",
+   "name": "Saugerties Lighthouse",
+   "state": "NY",
+   "place": "Saugerties, Hudson River, New York",
+   "lat": 42.0720917,
+   "lon": -73.9296444,
+   "firstLit": "1869",
+   "towerBuilt": "1869",
+   "heightFt": 46,
+   "status": "Restored; museum and B&B",
+   "owner": "Saugerties Lighthouse Conservancy",
+   "history": [
+    "The 1869 lighthouse replaced an earlier 1838 light on the Hudson River. Coast Guard service ended in 1954.",
+    "The nonprofit Saugerties Lighthouse Conservancy bought it in 1986 and restored it. It now holds a small museum and is on the National Register of Historic Places (1979)."
+   ],
+   "factSources": [
+    "wp-saugerties_light"
+   ],
+   "historySources": [
+    "wp-saugerties_light"
+   ],
+   "links": [
+    {
+     "label": "Wikipedia article",
+     "url": "https://en.wikipedia.org/wiki/Saugerties_Light"
+    }
+   ],
+   "stay": {
+    "kind": "Bed and breakfast",
+    "operator": "Saugerties Lighthouse Conservancy",
+    "notes": "River-view rooms with breakfast. Wikipedia lists two B&B rooms. The trail to the light can close at storm tides.",
+    "url": "https://www.saugertieslighthouse.com/accommodations",
+    "checked": "2026-11-27",
+    "sources": [
+     "saug",
+     "wp-saugerties_light"
+    ]
+   },
+   "journals": [
+    {
+     "title": "Lighthouse Station Logs, 1872–1941 (RG 26, Entry 80)",
+     "holder": "National Archives, Washington, DC",
+     "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+     "note": "Federal keeper logs from 1872 on. Coverage for this station not yet checked; ask archives1reference@nara.gov"
+    }
+   ]
+  },
+  {
+   "id": "big-bay-point",
+   "name": "Big Bay Point Lighthouse",
+   "state": "MI",
+   "place": "Big Bay, Lake Superior, Michigan",
+   "lat": 46.84028,
+   "lon": -87.68194,
+   "firstLit": "1896",
+   "towerBuilt": "1896",
+   "heightFt": null,
+   "status": "Private aid to navigation",
+   "owner": "Privately owned",
+   "history": [
+    "The lighthouse was built on a bluff over Lake Superior and its third-order lens entered service on October 20, 1896.",
+    "It was deactivated and sold in 1961 and passed through several private owners. It has operated as a bed and breakfast since 1986."
+   ],
+   "factSources": [
+    "wp-big_bay_point_light"
+   ],
+   "historySources": [
+    "wp-big_bay_point_light"
+   ],
+   "links": [
+    {
+     "label": "Wikipedia article",
+     "url": "https://en.wikipedia.org/wiki/Big_Bay_Point_Light"
+    },
+    {
+     "label": "US Coast Guard History Office",
+     "url": "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/All/Article/2009872/big-bay-point-light/"
+    }
+   ],
+   "stay": {
+    "kind": "Bed and breakfast in the keeper's quarters",
+    "operator": "Big Bay Point Lighthouse Bed and Breakfast",
+    "notes": "Open May 15 to November 5 for the 2027 season. Reservations go through the website only.",
+    "url": "https://www.bigbaylighthouse.com/",
+    "checked": "2026-11-27",
+    "sources": [
+     "bigbay"
+    ]
+   },
+   "journals": [
+    {
+     "title": "Lighthouse Station Logs, 1872–1941 (RG 26, Entry 80)",
+     "holder": "National Archives, Washington, DC",
+     "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+     "note": "Federal keeper logs from 1872 on. Coverage for this station not yet checked; ask archives1reference@nara.gov"
+    }
+   ]
+  },
+  {
+   "id": "rose-island",
+   "name": "Rose Island Lighthouse",
+   "state": "RI",
+   "place": "Rose Island, Narragansett Bay, Newport, Rhode Island",
+   "lat": 41.4954667,
+   "lon": -71.3427167,
+   "firstLit": "1870",
+   "towerBuilt": "1870",
+   "heightFt": 35,
+   "status": "Private aid to navigation (relit 1992)",
+   "owner": "Rose Island Lighthouse Foundation",
+   "history": [
+    "The lighthouse was built in 1870 on a bastion of the old Fort Hamilton. It was abandoned as a working light in 1970 once the Newport Bridge opened.",
+    "The Rose Island Lighthouse Foundation formed in 1984 to restore it, it joined the National Register in 1987, and it was relit as a private aid to navigation in 1992."
+   ],
+   "factSources": [
+    "wp-rose_island_light"
+   ],
+   "historySources": [
+    "wp-rose_island_light"
+   ],
+   "links": [
+    {
+     "label": "Wikipedia article",
+     "url": "https://en.wikipedia.org/wiki/Rose_Island_Light"
+    },
+    {
+     "label": "Discover Newport: work at a historic lighthouse",
+     "url": "https://www.discovernewport.org/articles/post/stay-over-and-work-at-a-historic-lighthouse/"
+    }
+   ],
+   "stay": {
+    "kind": "Overnight guest or keeper for a week",
+    "operator": "Rose Island Lighthouse Foundation",
+    "notes": "Reached only by boat. Guests can stay a night, or pay to spend a week as the lighthouse keeper. Booking link not yet verified; this links to the Discover Newport article.",
+    "url": "https://www.discovernewport.org/articles/post/stay-over-and-work-at-a-historic-lighthouse/",
+    "checked": "2026-11-27",
+    "sources": [
+     "wp-rose_island_light",
+     "dn"
+    ]
+   },
+   "journals": [
+    {
+     "title": "Lighthouse Station Logs, 1872–1941 (RG 26, Entry 80)",
+     "holder": "National Archives, Washington, DC",
+     "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+     "note": "Federal keeper logs from 1872 on. Coverage for this station not yet checked; ask archives1reference@nara.gov"
+    }
+   ]
+  },
+  {
+   "id": "east-brother",
+   "name": "East Brother Island Light",
+   "state": "CA",
+   "place": "East Brother Island, San Pablo Strait, Richmond, California",
+   "lat": 37.963233,
+   "lon": -122.433643,
+   "firstLit": "1874",
+   "towerBuilt": "1874",
+   "heightFt": 48,
+   "status": "Automated 1969",
+   "owner": "East Brother Light Station, Inc. (nonprofit)",
+   "history": [
+    "The station was built on a small island the government already owned, because land on the mainland was too costly. The lamp was first lit on March 1, 1874 and marks the entrance to San Pablo Bay.",
+    "It was automated in 1969 and listed on the National Register in 1971. A nonprofit formed in 1979 restored the buildings, and the keeper's house has run as a bed and breakfast since 1980."
+   ],
+   "factSources": [
+    "wp-east_brother_island_light"
+   ],
+   "historySources": [
+    "wp-east_brother_island_light"
+   ],
+   "links": [
+    {
+     "label": "Wikipedia article",
+     "url": "https://en.wikipedia.org/wiki/East_Brother_Island_Light"
+    },
+    {
+     "label": "US Coast Guard History Office",
+     "url": "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/All/Article/1915877/east-brother-island-light-station"
+    }
+   ],
+   "stay": {
+    "kind": "Bed and breakfast on the island",
+    "operator": "East Brother Light Station, Inc.",
+    "notes": "Five rooms. Rates include the boat ride, a tour, a four-course dinner and breakfast. Book in advance.",
+    "url": "https://ebls.org/about/reservations/",
+    "checked": "2026-11-27",
+    "sources": [
+     "ebls"
+    ]
+   },
+   "journals": [
+    {
+     "title": "Lighthouse Station Logs, 1872–1941 (RG 26, Entry 80)",
+     "holder": "National Archives, Washington, DC",
+     "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+     "note": "Federal keeper logs from 1872 on. Coverage for this station not yet checked; ask archives1reference@nara.gov"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wp-cape_hatteras_lighthouse",
+   "title": "Wikipedia: Cape Hatteras Lighthouse",
+   "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wp-portland_head_light",
+   "title": "Wikipedia: Portland Head Light",
+   "url": "https://en.wikipedia.org/wiki/Portland_Head_Light",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wp-point_reyes_lighthouse",
+   "title": "Wikipedia: Point Reyes Lighthouse",
+   "url": "https://en.wikipedia.org/wiki/Point_Reyes_Lighthouse",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wp-split_rock_lighthouse",
+   "title": "Wikipedia: Split Rock Lighthouse",
+   "url": "https://en.wikipedia.org/wiki/Split_Rock_Lighthouse",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wp-ponce_de_leon_inlet_light",
+   "title": "Wikipedia: Ponce de Leon Inlet Light",
+   "url": "https://en.wikipedia.org/wiki/Ponce_de_Leon_Inlet_Light",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wp-pigeon_point_lighthouse",
+   "title": "Wikipedia: Pigeon Point Lighthouse",
+   "url": "https://en.wikipedia.org/wiki/Pigeon_Point_Lighthouse",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wp-heceta_head_light",
+   "title": "Wikipedia: Heceta Head Light",
+   "url": "https://en.wikipedia.org/wiki/Heceta_Head_Light",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wp-saugerties_light",
+   "title": "Wikipedia: Saugerties Light",
+   "url": "https://en.wikipedia.org/wiki/Saugerties_Light",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wp-big_bay_point_light",
+   "title": "Wikipedia: Big Bay Point Light",
+   "url": "https://en.wikipedia.org/wiki/Big_Bay_Point_Light",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wp-rose_island_light",
+   "title": "Wikipedia: Rose Island Light",
+   "url": "https://en.wikipedia.org/wiki/Rose_Island_Light",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wp-east_brother_island_light",
+   "title": "Wikipedia: East Brother Island Light",
+   "url": "https://en.wikipedia.org/wiki/East_Brother_Island_Light",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "ebls",
+   "title": "East Brother Light Station: Reservations",
+   "url": "https://ebls.org/about/reservations/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "saug",
+   "title": "Saugerties Lighthouse Conservancy",
+   "url": "https://www.saugertieslighthouse.com/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "bigbay",
+   "title": "Big Bay Point Lighthouse Bed and Breakfast",
+   "url": "https://www.bigbaylighthouse.com/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "heceta",
+   "title": "Heceta Lighthouse Bed & Breakfast",
+   "url": "https://www.hecetaheadlighthouse.com/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "uslhs-or",
+   "title": "US Lighthouse Society: Oregon lighthouse accommodations",
+   "url": "https://uslhs.org/travel/lighthouse-accommodations/oregon",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "hiusa",
+   "title": "HI USA: Pigeon Point Lighthouse Hostel",
+   "url": "https://www.hiusa.org/hostels/california/pescadero/pigeon-point-lighthouse-hostel",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "dn",
+   "title": "Discover Newport: Stay over and work at a historic lighthouse",
+   "url": "https://www.discovernewport.org/articles/post/stay-over-and-work-at-a-historic-lighthouse/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "nara",
+   "title": "National Archives: Logbooks of US Lighthouses, 1872–1940",
+   "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+   "accessed": "2026-11-27"
+  }
+ ]
+}
