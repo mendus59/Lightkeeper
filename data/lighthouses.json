@@ -460,14 +460,15 @@
     }
    ],
    "stay": {
-    "kind": "Overnight guest or keeper for a week",
+    "kind": "Overnight stay in the keeper's apartment",
     "operator": "Rose Island Lighthouse Foundation",
-    "notes": "Reached only by boat. Guests can stay a night, or pay to spend a week as the lighthouse keeper. Booking link not yet verified; this links to the Discover Newport article.",
-    "url": "https://www.discovernewport.org/articles/post/stay-over-and-work-at-a-historic-lighthouse/",
+    "notes": "Reached only by boat. The Keeper's Apartment sleeps 4 to 6, and there is a more rustic Foghorn Room. Two-night minimum for stays that include the lighthouse. Older sources describe a keeper-for-a-week option.",
+    "url": "https://roseisland.org/overnight",
     "checked": "2026-11-27",
     "sources": [
      "wp-rose_island_light",
-     "dn"
+     "dn",
+     "rose-overnight"
     ]
    },
    "journals": [
@@ -2216,7 +2217,16 @@
      "url": "https://www.wikidata.org/wiki/Q7207938"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Vacation rentals in the keepers' houses",
+    "operator": "Point Arena Lighthouse Keepers, Inc.",
+    "notes": "The nonprofit rents vacation units in the former keepers' houses beside the tower. Rental income funds preservation.",
+    "url": "https://www.pointarenalighthouse.com/lodging",
+    "checked": "2026-11-27",
+    "sources": [
+     "pal-lodging"
+    ]
+   },
    "journals": []
   },
   {
@@ -2366,7 +2376,16 @@
      "url": "https://www.wikidata.org/wiki/Q5321418"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Vacation rentals in the lightkeepers' houses and cottages",
+    "operator": "Point Cabrillo Light Station, booked through Mendocino Coast Reservations",
+    "notes": "The Head and Assistant Lightkeeper's Houses and two small cottages are rented; together they sleep up to 18. The Assistant Lightkeeper's House and West Cottage are pet friendly.",
+    "url": "https://pointcabrillo.org/rentals/",
+    "checked": "2026-11-27",
+    "sources": [
+     "pcabrillo-rentals"
+    ]
+   },
    "journals": []
   },
   {
@@ -2553,7 +2572,16 @@
      "url": "https://www.wikidata.org/wiki/Q12066066"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Hostel in the light station buildings",
+    "operator": "HI USA (Hostelling International USA)",
+    "notes": "The 1875 fog signal station and lighthouse buildings are a hostel with dorm beds and private rooms.",
+    "url": "https://www.hiusa.org/find-hostels/california/montara-8800-cabrillo-highway",
+    "checked": "2026-11-27",
+    "sources": [
+     "hiusa-montara"
+    ]
+   },
    "journals": []
   },
   {
@@ -8625,7 +8653,17 @@
      "url": "https://www.wikidata.org/wiki/Q4944488"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Overnight keeper stays in an offshore lighthouse",
+    "operator": "Borden Flats Lighthouse (Overnight Light Keepers Program)",
+    "notes": "Guests stay as the keeper of this offshore caisson light, reached by a short boat ride from Borden Flats Marina. No official booking page found; this links to its business listing.",
+    "url": "https://www.usharbors.com/business/borden-flats-lighthouse/",
+    "checked": "2026-11-27",
+    "sources": [
+     "usharbors-borden",
+     "wp-borden_flats_light"
+    ]
+   },
    "journals": []
   },
   {
@@ -10300,7 +10338,16 @@
      "url": "https://www.wikidata.org/wiki/Q6981401"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Week-long stay in the keeper's house",
+    "operator": "Nauset Light Preservation Society",
+    "notes": "The 1875 keeper's house, steps from Nauset Light Beach, is let by the week.",
+    "url": "https://www.nausetlight.org/stay",
+    "checked": "2026-11-27",
+    "sources": [
+     "nlps-stay"
+    ]
+   },
    "journals": []
   },
   {
@@ -10684,7 +10731,16 @@
      "url": "https://www.wikidata.org/wiki/Q7278912"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Overnight stays in the keeper's house and whistle house",
+    "operator": "American Lighthouse Foundation, Cape Cod Chapter",
+    "notes": "Volunteer keepers drive guests over the sand to the keeper's house. The Whistle House is let by the week or for as few as two nights; it needs your own four-wheel-drive vehicle and a National Park Service oversand permit.",
+    "url": "https://lighthousefoundation.org/what-we-do/programs/overnight-programs/rpl-overnight/",
+    "checked": "2026-11-27",
+    "sources": [
+     "alf-rpl"
+    ]
+   },
    "journals": []
   },
   {
@@ -11585,7 +11641,17 @@
      "url": "https://www.wikidata.org/wiki/Q5178935"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Vacation rental in the keeper's duplex",
+    "operator": "Calvert Marine Museum",
+    "notes": "Both halves of the keeper's duplex are rented for 3, 4 or 7 days; proceeds support the museum.",
+    "url": "https://www.calvertmarinemuseum.com/218/Cove-Point-Lighthouse-Rental",
+    "checked": "2026-11-27",
+    "sources": [
+     "cmm-cove",
+     "bayweekly-cove"
+    ]
+   },
    "journals": []
   },
   {
@@ -13254,7 +13320,16 @@
      "url": "https://www.wikidata.org/wiki/Q4976654"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Vacation rental at the light station",
+    "operator": "Friends of Browns Head Lighthouse (American Lighthouse Foundation)",
+    "notes": "Open for overnight stays May through November on Vinalhaven Island. Reservations are through brownsheadlighthouse.com.",
+    "url": "https://lighthousefoundation.org/what-we-do/programs/overnight-programs/browns-head-lighthouse-vacation-rental/",
+    "checked": "2026-11-27",
+    "sources": [
+     "alf-browns-head"
+    ]
+   },
    "journals": []
   },
   {
@@ -13292,7 +13367,16 @@
      "url": "https://www.wikidata.org/wiki/Q5000188"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Weekly rental of the keeper's house apartment",
+    "operator": "Burnt Coat Harbor Light Station",
+    "notes": "An upstairs apartment for two in the keeper's house, let by the week from June to October. No pets, no smoking.",
+    "url": "https://www.lighthousefoundation.org/overnight-swans-island/",
+    "checked": "2026-11-27",
+    "sources": [
+     "alf-swans"
+    ]
+   },
    "journals": []
   },
   {
@@ -13330,7 +13414,16 @@
      "url": "https://www.wikidata.org/wiki/Q5000205"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Seasonal volunteer caretakers",
+    "operator": "Maine Department of Marine Resources with the Keepers of Burnt Island Light",
+    "notes": "Two volunteers live upstairs in the keeper's house for the season, giving tours and caring for the grounds. The downstairs is a museum.",
+    "url": "https://www.maine.gov/dmr/news/tue-03312026-1200-volunteer-opportunity-spend-your-summer-island-maine",
+    "checked": "2026-11-27",
+    "sources": [
+     "me-dmr-burnt"
+    ]
+   },
    "journals": []
   },
   {
@@ -13943,7 +14036,16 @@
      "url": "https://www.wikidata.org/wiki/Q5584112"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Overnight stays in an offshore lighthouse",
+    "operator": "Beacon Preservation, Inc.",
+    "notes": "Up to six guests stay overnight in the restored light, collected from the North Haven town dock. Stays are by donation to Beacon Preservation. Sources are dated; confirm with the operator.",
+    "url": "https://visitmaine.com/articles/goose-rocks-lighthouse/",
+    "checked": "2026-11-27",
+    "sources": [
+     "visitmaine-goose"
+    ]
+   },
    "journals": []
   },
   {
@@ -14363,7 +14465,17 @@
      "url": "https://www.wikidata.org/wiki/Q6651703"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Rooms in the keeper's house",
+    "operator": "Friends of Little River Lighthouse (American Lighthouse Foundation)",
+    "notes": "Three guest bedrooms in the restored 1888 keeper's house, June 1 to September 30. The island is a 12-minute boat ride from Cutler. No pets.",
+    "url": "https://www.littleriverlight.org/overnight-stays",
+    "checked": "2026-11-27",
+    "sources": [
+     "lrl-stays",
+     "alf-lrl"
+    ]
+   },
    "journals": []
   },
   {
@@ -14739,7 +14851,16 @@
      "url": "https://www.wikidata.org/wiki/Q2068455"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Weekly rental of the keeper's house apartment",
+    "operator": "Town of Bristol, booked through L. Dewey Chase Rentals",
+    "notes": "A one-bedroom apartment in the keeper's house is let by the week. The town page gives the rental agency's phone number.",
+    "url": "https://www.bristolmaine.org/node/143713",
+    "checked": "2026-11-27",
+    "sources": [
+     "bristol-pemaquid"
+    ]
+   },
    "journals": []
   },
   {
@@ -15191,7 +15312,17 @@
      "url": "https://www.wikidata.org/wiki/Q7446368"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Summer volunteer caretakers",
+    "operator": "Friends of Seguin Island Light Station",
+    "notes": "Two volunteers live in the keeper's quarters from Memorial Day to Labor Day, greeting visitors and leading tower tours. Applications are taken year-round; keepers are chosen in the fall.",
+    "url": "https://seguinisland.org/wp-content/uploads/2025/11/FOSILS-Keeper-Caretaker-Application-v11.2025.pdf",
+    "checked": "2026-11-27",
+    "sources": [
+     "fosils-app",
+     "fosils-2026"
+    ]
+   },
    "journals": []
   },
   {
@@ -15496,7 +15627,16 @@
      "url": "https://www.wikidata.org/wiki/Q1541848"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Whole light station rental",
+    "operator": "Whitehead Light Station",
+    "notes": "The station is rented by the week from June to October, including boat transport to the island. The station's pages give different weekly rates.",
+    "url": "https://www.whiteheadlightstation.org/rentals.html",
+    "checked": "2026-11-27",
+    "sources": [
+     "wls-rentals"
+    ]
+   },
    "journals": []
   },
   {
@@ -15809,7 +15949,16 @@
      "url": "https://www.wikidata.org/wiki/Q4906257"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Volunteer keeper stay",
+    "operator": "Lakeshore Keepers (formerly Sable Points Lighthouse Keepers Association)",
+    "notes": "Member volunteers stay on site as keepers; apply online. Volunteers must be 18 or older. Big Sable has needed a two-week commitment because it is remote.",
+    "url": "https://www.wxyz.com/news/want-to-be-a-lake-michigan-lighthouse-keeper-this-summer-heres-how-to-apply",
+    "checked": "2026-11-27",
+    "sources": [
+     "wxyz-lakeshore"
+    ]
+   },
    "journals": []
   },
   {
@@ -15909,7 +16058,16 @@
      "url": "https://www.wikidata.org/wiki/Q5074519"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Vacation rental in the lightkeeper's home",
+    "operator": "Charity Island Lightkeepers Home",
+    "notes": "A whole-home rental on Big Charity Island in Saginaw Bay, listed as sleeping ten. No official booking page found; this links to a booking-site listing.",
+    "url": "https://www.expedia.ca/Au-Gres-Hotels-Charity-Island-Lightkeepers-Home-Big-Charity-Island.h42619605.Hotel-Information",
+    "checked": "2026-11-27",
+    "sources": [
+     "expedia-charity"
+    ]
+   },
    "journals": []
   },
   {
@@ -16098,7 +16256,16 @@
      "url": "https://www.wikidata.org/wiki/Q5186005"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Volunteer keepers camping on the grounds",
+    "operator": "Crisp Point Light Historical Society",
+    "notes": "Keepers must be society members. There is no indoor housing: keepers bring tents or RVs and their own water.",
+    "url": "https://www.crisppointlighthouse.org/volunteerkeepers.html",
+    "checked": "2026-11-27",
+    "sources": [
+     "cplhs-keepers"
+    ]
+   },
    "journals": []
   },
   {
@@ -16137,7 +16304,16 @@
      "url": "https://www.wikidata.org/wiki/Q5244123"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Overnight keeper stays in an offshore lighthouse",
+    "operator": "DeTour Reef Light Preservation Society",
+    "notes": "Guests reach the 1931 offshore light by boat, stay in quarters furnished in the Coast Guard style, and help with light duties.",
+    "url": "https://www.drlps.com/stay-or-visit",
+    "checked": "2026-11-27",
+    "sources": [
+     "drlps-stay"
+    ]
+   },
    "journals": []
   },
   {
@@ -16293,7 +16469,16 @@
      "url": "https://www.wikidata.org/wiki/Q5471242"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Group overnight stays at the light station",
+    "operator": "Port Huron Museum",
+    "notes": "Overnight at the Light hosts groups of 20 to 40 people, bunk-room style, with a tour and a climb of the tower.",
+    "url": "https://www.phmuseum.org/overnight-at-the-light/",
+    "checked": "2026-11-27",
+    "sources": [
+     "phm-overnight"
+    ]
+   },
    "journals": []
   },
   {
@@ -16760,7 +16945,16 @@
      "url": "https://www.wikidata.org/wiki/Q5595174"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Week-long volunteer keeper stay",
+    "operator": "Grand Traverse Lighthouse Museum",
+    "notes": "Keepers spend a week in the assistant keeper's quarters, April through December, helping with admissions, the gift shop and grounds. Keepers must be 18 or older.",
+    "url": "https://www.grandtraverselighthouse.com/keeper-program/",
+    "checked": "2026-11-27",
+    "sources": [
+     "gtl-keeper"
+    ]
+   },
    "journals": []
   },
   {
@@ -17350,7 +17544,16 @@
      "url": "https://www.wikidata.org/wiki/Q6651797"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Volunteer keeper stay",
+    "operator": "Lakeshore Keepers (formerly Sable Points Lighthouse Keepers Association)",
+    "notes": "Member volunteers stay on site as keepers; apply online. Volunteers must be 18 or older.",
+    "url": "https://www.wxyz.com/news/want-to-be-a-lake-michigan-lighthouse-keeper-this-summer-heres-how-to-apply",
+    "checked": "2026-11-27",
+    "sources": [
+     "wxyz-lakeshore"
+    ]
+   },
    "journals": []
   },
   {
@@ -17424,7 +17627,16 @@
      "url": "https://www.wikidata.org/wiki/Q6698798"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Volunteer keeper stay",
+    "operator": "Lakeshore Keepers (formerly Sable Points Lighthouse Keepers Association)",
+    "notes": "Member volunteers stay on site as keepers; apply online. Volunteers must be 18 or older.",
+    "url": "https://www.wxyz.com/news/want-to-be-a-lake-michigan-lighthouse-keeper-this-summer-heres-how-to-apply",
+    "checked": "2026-11-27",
+    "sources": [
+     "wxyz-lakeshore"
+    ]
+   },
    "journals": []
   },
   {
@@ -17462,7 +17674,16 @@
      "url": "https://www.wikidata.org/wiki/Q12061470"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Volunteer keeper stay",
+    "operator": "Lakeshore Keepers (formerly Sable Points Lighthouse Keepers Association)",
+    "notes": "Member volunteers stay on site as keepers; apply online. Volunteers must be 18 or older.",
+    "url": "https://www.wxyz.com/news/want-to-be-a-lake-michigan-lighthouse-keeper-this-summer-heres-how-to-apply",
+    "checked": "2026-11-27",
+    "sources": [
+     "wxyz-lakeshore"
+    ]
+   },
    "journals": []
   },
   {
@@ -17879,7 +18100,16 @@
      "url": "https://www.wikidata.org/wiki/Q6878674"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Week-long volunteer keeper stay",
+    "operator": "Peninsula Township",
+    "notes": "Keepers stay in the keeper's quarters and run the gift shop and museum, May through October. A full application is required; no pets or children.",
+    "url": "https://missionpointlighthouse.com/keeper-program.html",
+    "checked": "2026-11-27",
+    "sources": [
+     "mpl-keeper"
+    ]
+   },
    "journals": []
   },
   {
@@ -18573,7 +18803,16 @@
      "url": "https://www.wikidata.org/wiki/Q7207954"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Vacation rental in the keeper's quarters",
+    "operator": "Point Betsie Lighthouse",
+    "notes": "An apartment in the keeper's quarters for up to 6 guests, with a $500 security deposit. Book through the lighthouse's calendar.",
+    "url": "https://pointbetsie.org/keepers-quarters",
+    "checked": "2026-11-27",
+    "sources": [
+     "betsie-kq"
+    ]
+   },
    "journals": []
   },
   {
@@ -18650,7 +18889,16 @@
      "url": "https://www.wikidata.org/wiki/Q7208336"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Week-long assistant keeper stay",
+    "operator": "Pointe aux Barques Maritime Museum",
+    "notes": "Groups of two to four adults stay a week in the assistant keeper's house in return for volunteer work, for a weekly fee per person.",
+    "url": "https://pointeauxbarqueslighthouse.org/asst-keepers-program",
+    "checked": "2026-11-27",
+    "sources": [
+     "pab-keepers"
+    ]
+   },
    "journals": []
   },
   {
@@ -19750,7 +19998,17 @@
      "url": "https://www.wikidata.org/wiki/Q7689229"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Two-week volunteer keeper stay",
+    "operator": "Michigan DNR / Michigan History Center",
+    "notes": "A team of four adults lives in the keeper's dwelling for two weeks, helping visitors climb the tower. $250 per person. Stays run May through October.",
+    "url": "https://michigan.gov/mhc/museums/tawas/lighthouse-keepers",
+    "checked": "2026-11-27",
+    "sources": [
+     "mhc-tawas",
+     "mi-dnr-keepers"
+    ]
+   },
    "journals": []
   },
   {
@@ -19903,7 +20161,16 @@
      "url": "https://www.wikidata.org/wiki/Q7995293"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Volunteer keeper stay",
+    "operator": "Lakeshore Keepers (formerly Sable Points Lighthouse Keepers Association)",
+    "notes": "Member volunteers stay on site as keepers; apply online. Volunteers must be 18 or older.",
+    "url": "https://www.wxyz.com/news/want-to-be-a-lake-michigan-lighthouse-keeper-this-summer-heres-how-to-apply",
+    "checked": "2026-11-27",
+    "sources": [
+     "wxyz-lakeshore"
+    ]
+   },
    "journals": []
   },
   {
@@ -20317,7 +20584,16 @@
      "url": "https://www.wikidata.org/wiki/Q7859001"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Bed and breakfast in the keeper's quarters",
+    "operator": "Lake County Historical Society",
+    "notes": "Rooms in the keeper's quarters for up to six, plus the Skiff House cottage on the grounds. Proceeds help preserve the light station.",
+    "url": "https://lighthousebb.org/",
+    "checked": "2026-11-27",
+    "sources": [
+     "lchs-bb"
+    ]
+   },
    "journals": []
   },
   {
@@ -24717,7 +24993,16 @@
      "url": "https://www.wikidata.org/wiki/Q7448550"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Vacation rental of the lighthouse",
+    "operator": "Salmon River Lighthouse & Marina",
+    "notes": "The 1838 lighthouse is rented by the first floor, second floor or whole building. Overnight guests can climb the tower.",
+    "url": "https://webreserv.com/salmonriverlighthousemarinanj",
+    "checked": "2026-11-27",
+    "sources": [
+     "srlm-res"
+    ]
+   },
    "journals": []
   },
   {
@@ -25203,7 +25488,16 @@
      "url": "https://www.wikidata.org/wiki/Q7785223"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Lighthouse cottage rental",
+    "operator": "New York State Parks (Golden Hill State Park)",
+    "notes": "The Lighthouse Cottage on the second floor of the lighthouse sleeps 6, with a 2-night minimum and no pets. Booked through ReserveAmerica.",
+    "url": "https://parks.ny.gov/parks/goldenhill/",
+    "checked": "2026-11-27",
+    "sources": [
+     "nysp-goldenhill"
+    ]
+   },
    "journals": []
   },
   {
@@ -29092,7 +29386,16 @@
      "url": "https://www.wikidata.org/wiki/Q241328"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Guesthouse in the 1873 lighthouse",
+    "operator": "Haig Point (Daufuskie Island)",
+    "notes": "The restored lighthouse is a two-bedroom guesthouse, booked as part of Haig Point's Discovery Experience visit, with ferry transport from Hilton Head.",
+    "url": "https://www.onlyinyourstate.com/stays/south-carolina/haig-point-lighthouse-daufuskie-island-sc",
+    "checked": "2026-11-27",
+    "sources": [
+     "oiys-haig"
+    ]
+   },
    "journals": []
   },
   {
@@ -31564,7 +31867,17 @@
      "url": "https://www.wikidata.org/wiki/Q432291"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Keeper's cottage rental as honorary lightkeeper",
+    "operator": "Points Northeast Historical Society",
+    "notes": "The renter of the 1903 keeper's cottage serves as an honorary lightkeeper and leads Saturday afternoon tours. A 2-night minimum is reported; bookings have gone through Airbnb and Vrbo.",
+    "url": "https://en.wikipedia.org/wiki/Browns_Point_Light",
+    "checked": "2026-11-27",
+    "sources": [
+     "wp-browns_point_light",
+     "king5-browns"
+    ]
+   },
    "journals": []
   },
   {
@@ -32074,7 +32387,17 @@
      "url": "https://www.wikidata.org/wiki/Q7007034"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Week-long volunteer keeper stay",
+    "operator": "New Dungeness Light Station Association",
+    "notes": "Individuals, families and groups spend a full week as keepers, giving tours and doing light maintenance. Association membership is required. 2026 rates were $520 per adult, $260 per child, or $3,120 for the whole house.",
+    "url": "https://newdungenesslighthouse.com/keeper-program/",
+    "checked": "2026-11-27",
+    "sources": [
+     "ndls-keeper",
+     "ndls-avail"
+    ]
+   },
    "journals": []
   },
   {
@@ -32110,7 +32433,16 @@
      "url": "https://www.wikidata.org/wiki/Q7055575"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Vacation houses in the keepers' residences",
+    "operator": "Washington State Parks (Cape Disappointment State Park)",
+    "notes": "The lighthouse keepers' residences near the light are rented as vacation houses. Reservations open up to nine months ahead.",
+    "url": "https://parks.wa.gov/find-parks/state-parks/cape-disappointment-state-park/cape-disappointment-vacation-houses",
+    "checked": "2026-11-27",
+    "sources": [
+     "wsp-capedis"
+    ]
+   },
    "journals": []
   },
   {
@@ -32187,7 +32519,17 @@
      "url": "https://www.wikidata.org/wiki/Q7208098"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Vacation rental in the keeper's quarters",
+    "operator": "United States Lighthouse Society",
+    "notes": "The Society rents one half of the keeper's duplex, and separately the one-bedroom Keeper John Maggs House on the grounds. Two-night minimum, no pets. Rental income helps preserve the light station.",
+    "url": "https://uslhs.org/travel/accommodations/point-no-point-vacation-rentals/historic-keepers-quarters",
+    "checked": "2026-11-27",
+    "sources": [
+     "uslhs-pnp",
+     "uslhs-pnp-maggs"
+    ]
+   },
    "journals": []
   },
   {
@@ -32261,7 +32603,16 @@
      "url": "https://www.wikidata.org/wiki/Q7208156"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Vacation rental in two keepers' quarters",
+    "operator": "Vashon Park District",
+    "notes": "Both historic keepers' quarters at Point Robinson Park are rented. A signed rental contract and release form are required before arrival.",
+    "url": "https://vashonparks.org/pt-robinson-keepers-quarters",
+    "checked": "2026-11-27",
+    "sources": [
+     "vashon-ptr"
+    ]
+   },
    "journals": []
   },
   {
@@ -32299,7 +32650,17 @@
      "url": "https://www.wikidata.org/wiki/Q2671728"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Vacation rental in the keeper's quarters",
+    "operator": "United States Lighthouse Society",
+    "notes": "The historic keeper's quarters and a Coast Guard house are rented inside Fort Worden State Park. Two-night minimum, no pets. Rental income supports the station's restoration.",
+    "url": "https://uslhs.org/travel/accommodations/point-wilson-vacation-rentals/keeper-quarters",
+    "checked": "2026-11-27",
+    "sources": [
+     "uslhs-pw",
+     "uslhs-pw-cg"
+    ]
+   },
    "journals": []
   },
   {
@@ -33984,7 +34345,17 @@
      "url": "https://www.wikidata.org/wiki/Q7235206"
     }
    ],
-   "stay": null,
+   "stay": {
+    "kind": "Week-long volunteer docent stay",
+    "operator": "Friends of Rock Island",
+    "notes": "Volunteer docents live in the lighthouse a week at a time, giving daily tours from Memorial Day weekend to Columbus Day. No electricity or running water; bring all food.",
+    "url": "https://dnr.wisconsin.gov/topic/parks/rockisland/lighthouse",
+    "checked": "2026-11-27",
+    "sources": [
+     "wdnr-pottawatomie",
+     "wp-pottawatomie_light"
+    ]
+   },
    "journals": []
   },
   {
@@ -34548,9 +34919,63 @@
  ],
  "sources": [
   {
+   "id": "alf-browns-head",
+   "title": "American Lighthouse Foundation: Browns Head Lighthouse vacation rental",
+   "url": "https://lighthousefoundation.org/what-we-do/programs/overnight-programs/browns-head-lighthouse-vacation-rental/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "alf-lrl",
+   "title": "American Lighthouse Foundation: Little River Light overnight",
+   "url": "https://lighthousefoundation.org/what-we-do/programs/overnight-programs/lrl-overnight/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "alf-rpl",
+   "title": "American Lighthouse Foundation: Race Point Light overnight stays",
+   "url": "https://lighthousefoundation.org/what-we-do/programs/overnight-programs/rpl-overnight/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "alf-swans",
+   "title": "American Lighthouse Foundation: Overnight at Swan's Island (Burnt Coat Harbor)",
+   "url": "https://www.lighthousefoundation.org/overnight-swans-island/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "bayweekly-cove",
+   "title": "Bay Weekly: Lighthouse keepers' house for rent",
+   "url": "https://bayweekly.com/lighthouse-keepers-house-for-rent",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "betsie-kq",
+   "title": "Point Betsie Lighthouse: Keeper's Quarters",
+   "url": "https://pointbetsie.org/keepers-quarters",
+   "accessed": "2026-11-27"
+  },
+  {
    "id": "bigbay",
    "title": "Big Bay Point Lighthouse Bed and Breakfast",
    "url": "https://www.bigbaylighthouse.com/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "bristol-pemaquid",
+   "title": "Town of Bristol: Pemaquid Point Keeper's House Apartment",
+   "url": "https://www.bristolmaine.org/node/143713",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "cmm-cove",
+   "title": "Calvert Marine Museum: Cove Point Lighthouse rental",
+   "url": "https://www.calvertmarinemuseum.com/218/Cove-Point-Lighthouse-Rental",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "cplhs-keepers",
+   "title": "Crisp Point Light Historical Society: Volunteer keeper information",
+   "url": "https://www.crisppointlighthouse.org/volunteerkeepers.html",
    "accessed": "2026-11-27"
   },
   {
@@ -34560,9 +34985,39 @@
    "accessed": "2026-11-27"
   },
   {
+   "id": "drlps-stay",
+   "title": "DeTour Reef Light Preservation Society: Stay or visit",
+   "url": "https://www.drlps.com/stay-or-visit",
+   "accessed": "2026-11-27"
+  },
+  {
    "id": "ebls",
    "title": "East Brother Light Station: Reservations",
    "url": "https://ebls.org/about/reservations/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "expedia-charity",
+   "title": "Expedia: Charity Island Lightkeepers Home",
+   "url": "https://www.expedia.ca/Au-Gres-Hotels-Charity-Island-Lightkeepers-Home-Big-Charity-Island.h42619605.Hotel-Information",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "fosils-2026",
+   "title": "Friends of Seguin Island Light Station: 2026 keeper caretaker agreement",
+   "url": "https://seguinisland.org/wp-content/uploads/2025/10/2026-Lighthouse-Keeper-Caretaker-Agreement-1.pdf",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "fosils-app",
+   "title": "Friends of Seguin Island Light Station: Keeper caretaker application",
+   "url": "https://seguinisland.org/wp-content/uploads/2025/11/FOSILS-Keeper-Caretaker-Application-v11.2025.pdf",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "gtl-keeper",
+   "title": "Grand Traverse Lighthouse: Keeper Program",
+   "url": "https://www.grandtraverselighthouse.com/keeper-program/",
    "accessed": "2026-11-27"
   },
   {
@@ -34578,9 +35033,117 @@
    "accessed": "2026-11-27"
   },
   {
+   "id": "hiusa-montara",
+   "title": "HI USA: Point Montara Lighthouse hostel",
+   "url": "https://www.hiusa.org/find-hostels/california/montara-8800-cabrillo-highway",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "king5-browns",
+   "title": "KING 5: Stay the night at historic Browns Point Lighthouse",
+   "url": "https://king5.com/article/entertainment/television/programs/evening-tacoma/stay-the-night-historic-browns-point-lighthouse/281-a819579e-20a2-4666-9928-ee86c9c388d2",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "lchs-bb",
+   "title": "Lighthouse Bed and Breakfast, Two Harbors",
+   "url": "https://lighthousebb.org/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "lrl-stays",
+   "title": "Little River Light Station: Overnight stays",
+   "url": "https://www.littleriverlight.org/overnight-stays",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "me-dmr-burnt",
+   "title": "Maine DMR: Volunteer opportunity, spend your summer on an island (2026)",
+   "url": "https://www.maine.gov/dmr/news/tue-03312026-1200-volunteer-opportunity-spend-your-summer-island-maine",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "mhc-tawas",
+   "title": "Michigan History Center: Tawas Point lighthouse keepers",
+   "url": "https://michigan.gov/mhc/museums/tawas/lighthouse-keepers",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "mi-dnr-keepers",
+   "title": "Michigan DNR: Lighthouse keepers",
+   "url": "https://www.michigan.gov/dnr/about/get-involved/host/keepers",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "mpl-keeper",
+   "title": "Mission Point Lighthouse: Keeper program",
+   "url": "https://missionpointlighthouse.com/keeper-program.html",
+   "accessed": "2026-11-27"
+  },
+  {
    "id": "nara",
    "title": "National Archives: Logbooks of US Lighthouses, 1872–1940",
    "url": "https://www.archives.gov/research/military/logbooks/lighthouses",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "ndls-avail",
+   "title": "New Dungeness Light Station: Keeper availability",
+   "url": "https://newdungenesslighthouse.com/keeper-availability/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "ndls-keeper",
+   "title": "New Dungeness Light Station: Lighthouse Keeper Program",
+   "url": "https://newdungenesslighthouse.com/keeper-program/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "nlps-stay",
+   "title": "Nauset Light Preservation Society: Stay at the Keeper's House",
+   "url": "https://www.nausetlight.org/stay",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "nysp-goldenhill",
+   "title": "New York State Parks: Golden Hill State Park",
+   "url": "https://parks.ny.gov/parks/goldenhill/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "oiys-haig",
+   "title": "Only In Your State: Haig Point Lighthouse, Daufuskie Island",
+   "url": "https://www.onlyinyourstate.com/stays/south-carolina/haig-point-lighthouse-daufuskie-island-sc",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "pab-keepers",
+   "title": "Pointe aux Barques Lighthouse: Assistant keepers program",
+   "url": "https://pointeauxbarqueslighthouse.org/asst-keepers-program",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "pal-lodging",
+   "title": "Point Arena Lighthouse: Lodging",
+   "url": "https://www.pointarenalighthouse.com/lodging",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "pcabrillo-rentals",
+   "title": "Point Cabrillo Light Station: Rentals",
+   "url": "https://pointcabrillo.org/rentals/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "phm-overnight",
+   "title": "Port Huron Museum: Overnight at the Light",
+   "url": "https://www.phmuseum.org/overnight-at-the-light/",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "rose-overnight",
+   "title": "Rose Island Lighthouse: A historic stay",
+   "url": "https://roseisland.org/overnight",
    "accessed": "2026-11-27"
   },
   {
@@ -34590,9 +35153,57 @@
    "accessed": "2026-11-27"
   },
   {
+   "id": "srlm-res",
+   "title": "Salmon River Lighthouse & Marina: Reservations",
+   "url": "https://webreserv.com/salmonriverlighthousemarinanj",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "usharbors-borden",
+   "title": "US Harbors: Borden Flats Lighthouse",
+   "url": "https://www.usharbors.com/business/borden-flats-lighthouse/",
+   "accessed": "2026-11-27"
+  },
+  {
    "id": "uslhs-or",
    "title": "US Lighthouse Society: Oregon lighthouse accommodations",
    "url": "https://uslhs.org/travel/lighthouse-accommodations/oregon",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "uslhs-pnp",
+   "title": "US Lighthouse Society: Point No Point historic keeper's quarters",
+   "url": "https://uslhs.org/travel/accommodations/point-no-point-vacation-rentals/historic-keepers-quarters",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "uslhs-pnp-maggs",
+   "title": "US Lighthouse Society: Point No Point Maggs House",
+   "url": "https://uslhs.org/travel/accommodations/point-no-point-vacation-rentals/maggs-house",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "uslhs-pw",
+   "title": "US Lighthouse Society: Point Wilson keeper's quarters",
+   "url": "https://uslhs.org/travel/accommodations/point-wilson-vacation-rentals/keeper-quarters",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "uslhs-pw-cg",
+   "title": "US Lighthouse Society: Point Wilson Coast Guard house",
+   "url": "https://uslhs.org/travel/accommodations/point-wilson-vacation-rentals/coast-guard-house",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "vashon-ptr",
+   "title": "Vashon Park District: Point Robinson Keeper's Quarters",
+   "url": "https://vashonparks.org/pt-robinson-keepers-quarters",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "visitmaine-goose",
+   "title": "Visit Maine: Goose Rocks Lighthouse",
+   "url": "https://visitmaine.com/articles/goose-rocks-lighthouse/",
    "accessed": "2026-11-27"
   },
   {
@@ -40155,6 +40766,18 @@
    "id": "wd-q983738",
    "title": "Wikidata: Old Orchard Shoal Light (Q983738)",
    "url": "https://www.wikidata.org/wiki/Q983738",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wdnr-pottawatomie",
+   "title": "Wisconsin DNR: Rock Island State Park lighthouse",
+   "url": "https://dnr.wisconsin.gov/topic/parks/rockisland/lighthouse",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wls-rentals",
+   "title": "Whitehead Light Station: Rental opportunities",
+   "url": "https://www.whiteheadlightstation.org/rentals.html",
    "accessed": "2026-11-27"
   },
   {
@@ -45990,6 +46613,18 @@
    "url": "https://en.wikipedia.org/wiki/York_Spit_Light",
    "accessed": "2026-11-27",
    "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "wsp-capedis",
+   "title": "Washington State Parks: Cape Disappointment vacation houses",
+   "url": "https://parks.wa.gov/find-parks/state-parks/cape-disappointment-state-park/cape-disappointment-vacation-houses",
+   "accessed": "2026-11-27"
+  },
+  {
+   "id": "wxyz-lakeshore",
+   "title": "WXYZ: Want to be a Lake Michigan lighthouse keeper this summer? Here's how to apply",
+   "url": "https://www.wxyz.com/news/want-to-be-a-lake-michigan-lighthouse-keeper-this-summer-heres-how-to-apply",
+   "accessed": "2026-11-27"
   }
  ]
 }
