@@ -4,7 +4,8 @@
 Facts (coordinates, place, dates, height, heritage listings) come from each lighthouse's Wikidata item and
 cite it. History is an excerpt of the English Wikipedia article's opening paragraphs (CC BY-SA 4.0) and cites
 the article. Nothing is written by hand: if neither source says it, it is left out. Entries already in the
-data (hand-checked ones with booking details) are kept as they are and not duplicated.
+data without a Wikidata id (hand-checked ones) are kept as they are and not duplicated, and booking details
+added by hand to imported entries are carried over to the rebuilt entry.
 
 Usage: python3 scripts/import-wikidata.py WORKDIR
 WORKDIR holds the downloaded inputs: rows.json and states.json (SPARQL results) and html/<sha1 of url>.html
@@ -25,8 +26,11 @@ rows = json.load(open(os.path.join(WORK, "rows.json")))
 states = json.load(open(os.path.join(WORK, "states.json")))
 
 # Start again from the hand-checked entries; imported ones carry a "wikidata" id and are rebuilt below.
+# Booking details added by hand to imported entries are kept, keyed by Wikidata id, along with their sources.
+kept_stays = {l["wikidata"]: l["stay"] for l in data["lighthouses"] if l.get("wikidata") and l.get("stay")}
 data["lighthouses"] = [l for l in data["lighthouses"] if not l.get("wikidata")]
 cited = {i for l in data["lighthouses"] for i in l["factSources"] + l["historySources"] + (l.get("stay") or {}).get("sources", [])}
+cited |= {i for st in kept_stays.values() for i in st["sources"]}
 data["sources"] = [s for s in data["sources"] if s["id"] in cited or not s["id"].startswith(("wd-", "wp-"))]
 
 STATE_NAMES = {}
@@ -176,7 +180,7 @@ for it in sorted(items.values(), key=lambda x: (x["state"], x["label"])):
         "heightFt": hts.pop() if len(hts) == 1 else None,
         "heritage": it["heritage"],
         "history": history, "historyExcerpt": bool(history), "factSources": [wd_id], "historySources": hist_src,
-        "links": links, "stay": None, "journals": [],
+        "links": links, "stay": kept_stays.get(it["qid"]), "journals": [],
     }
     if it.get("state_from"):
         entry["stateNote"] = "State taken from the nearest catalogued lighthouse; Wikidata gives none."

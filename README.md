@@ -7,7 +7,7 @@
 A map and catalogue of more than 900 US lighthouses with sourced histories, keepers' records and places you can stay the night.
 
 - Browse lighthouses on a map, or search the list by name, place or state.
-- Filter to lighthouses and keeper's quarters that offer overnight stays, with booking details.
+- Filter to lighthouses you can stay the night at, from keeper's house rentals and B&Bs to volunteer keeper programs, with booking details.
 - Each lighthouse has key facts, public links and, where a source has one, a short history.
 - Every fact is cited to a numbered source, such as Wikidata or Wikipedia, with the date it was read.
 - Each lighthouse has its own shareable link.
@@ -30,7 +30,7 @@ A catalogue of US lighthouses: a map, a short sourced history of each one, where
 - Copyrighted sites (Lighthouse Digest, Lighthouse Friends and similar) are linked, not copied.
 - Booking details change. Each stay carries a `checked` date so stale links can be found and rechecked.
 
-To refresh the import, run `python3 scripts/fetch-wikidata.py WORKDIR` (downloads from Wikidata and Wikipedia, about an hour) and then `python3 scripts/import-wikidata.py WORKDIR` (needs `beautifulsoup4`). The import rebuilds the imported entries and leaves hand-checked ones, such as those with booking details, alone.
+To refresh the import, run `python3 scripts/fetch-wikidata.py WORKDIR` (downloads from Wikidata and Wikipedia, about an hour) and then `python3 scripts/import-wikidata.py WORKDIR` (needs `beautifulsoup4`). The import rebuilds the imported entries and leaves hand-checked ones alone. Booking details added to an imported entry are kept across re-imports.
 
 `npm run validate` checks the data (coordinates, source ids, https links, dates) and runs before every build.
 
