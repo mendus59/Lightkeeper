@@ -1,6 +1,25 @@
 # Lightkeeper
 
+<!-- site-summary:start -->
+<!-- This section is this project's card on https://mendus59.github.io and is copied there daily.
+     Keep it true of what's on main: one plain-text summary line (max 160 characters), then 1-6 short bullets.
+     See CLAUDE.md ("Site summary"). -->
+A map and catalogue of US lighthouses with sourced histories, keepers' records and places you can stay the night.
+
+- Browse lighthouses on a map, or search the list by name, place or state.
+- Filter to lighthouses and keeper's quarters that offer overnight stays, with booking details.
+- Each lighthouse has key facts, a short history, where its keepers' logs and journals are held, and links to public sites.
+- Every fact is cited to a numbered source with the date it was read.
+- Each lighthouse has its own shareable link.
+<!-- site-summary:end -->
+
+<!-- site-icon: public/favicon.svg -->
+<!-- site-screenshot: docs/screenshot.jpg -->
+![Screenshot of Lightkeeper](docs/screenshot.jpg)
+
 A catalogue of US lighthouses: a map, a short sourced history of each one, where its keepers' logs and journals are held, links to public sites about it, and booking details for lighthouses and keeper's quarters that offer overnight stays.
+
+**Live site:** https://mendus59.github.io/Lightkeeper/
 
 ## Data rules
 
