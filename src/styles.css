@@ -34,10 +34,6 @@ h1 span { color: var(--lamp); }
 
 .layout { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 20px; align-items: start; }
 .mapcol { position: sticky; top: 12px; }
-@media (max-width: 860px) {
-  .layout { grid-template-columns: minmax(0, 1fr); }
-  .mapcol { position: static; }
-}
 
 .mapbox { border: 1px solid var(--rule); border-radius: 6px; position: relative; overflow: hidden; }
 .map { height: min(70vh, 620px); min-height: 340px; width: 100%; background: var(--bg); }
@@ -86,3 +82,63 @@ sup a { text-decoration: none; font-family: var(--mono); font-size: .7rem; }
 .sources { font-size: .82rem; color: var(--muted); }
 .sources li { overflow-wrap: anywhere; }
 footer { margin-top: 28px; font-size: .8rem; color: var(--muted); max-width: 80ch; }
+
+/* Desktop shows map, list and details side by side; the tab bar and map preview card are phone-only. */
+.tabs, .peek { display: none; }
+
+/* Phones and narrow tablets: one pane at a time, switched from a tab bar at the bottom of the screen. */
+@media (max-width: 860px) {
+  body { font-size: 16px; }
+  .wrap { padding-top: 12px; padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
+  header { margin-bottom: 10px; gap: 4px 12px; }
+  h1 { font-size: 2rem; }
+  .tag { font-size: .85rem; }
+  .count { display: none; }
+  .layout { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .mapcol { position: static; }
+
+  .layout[data-view="map"] .side,
+  .layout[data-view="list"] .mapcol,
+  .layout[data-view="list"] .sheet,
+  .layout[data-view="detail"] .mapcol,
+  .layout[data-view="detail"] .controls,
+  .layout[data-view="detail"] .register { display: none; }
+
+  /* Map fills the screen between the header and the tab bar. */
+  .map { height: calc(100dvh - 230px); min-height: 300px; }
+  .legend { top: 10px; right: 10px; left: auto; bottom: auto; }
+  .peek { display: flex; position: absolute; left: 8px; right: 8px; bottom: 8px; z-index: 600; gap: 10px; align-items: center; background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 10px 10px 10px 14px; box-shadow: 0 2px 10px rgb(0 0 0 / .18); }
+  .peek div { flex: 1; min-width: 0; display: grid; }
+  .peek strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .peek span { font-size: .82rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .peek button { font: inherit; font-weight: 600; padding: 10px 16px; min-height: 44px; border: 0; border-radius: 4px; background: var(--ink); color: var(--paper); cursor: pointer; }
+  /* Leaflet's attribution sits under the card, so move it above. */
+  .mapbox .leaflet-bottom.leaflet-right { bottom: 76px; }
+
+  /* Search stays in reach while the list scrolls; 16px text stops iOS zooming into the field. */
+  .controls { position: sticky; top: 0; z-index: 10; background: var(--bg); padding: 8px 0; margin-top: -8px; }
+  .controls input { font-size: 16px; padding: 10px 12px; flex-basis: 100%; }
+  .chip { min-height: 40px; padding: 8px 16px; }
+  .register { max-height: none; overflow: visible; }
+  .register-head { top: 110px; }
+  .register-head, .row { grid-template-columns: minmax(0, 1fr) 36px 48px 56px; gap: 6px; }
+  .row { min-height: 48px; padding: 10px 12px; }
+
+  .sheet { padding: 14px 14px 16px; }
+  .sheet h2 { font-size: 1.7rem; }
+  .facts { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); }
+  .sheet li { margin-bottom: 8px; }
+  sup a { padding: 0 2px; }
+
+  .tabs { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 1000; background: var(--paper); border-top: 1px solid var(--rule); padding: 6px max(8px, env(safe-area-inset-right)) calc(6px + env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-left)); gap: 6px; }
+  .tabs button { flex: 1; font: inherit; font-size: .9rem; font-weight: 600; min-height: 48px; border: 0; border-radius: 6px; background: none; color: var(--muted); cursor: pointer; }
+  .tabs button[aria-current="page"] { background: var(--lamp-soft); color: var(--ink); }
+  .tabs button:disabled { opacity: .4; }
+  .tabs button:focus-visible, .peek button:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+}
+
+/* Very narrow phones: drop the height column so names have room. */
+@media (max-width: 380px) {
+  .register-head span:nth-child(4), .row > span:nth-child(4) { display: none; }
+  .register-head, .row { grid-template-columns: minmax(0, 1fr) 36px 48px; }
+}

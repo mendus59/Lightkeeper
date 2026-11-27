@@ -11,6 +11,7 @@ A map and catalogue of more than 900 US lighthouses with sourced histories, keep
 - Each lighthouse has key facts, public links and, where a source has one, a short history.
 - Every fact is cited to a numbered source, such as Wikidata or Wikipedia, with the date it was read.
 - Each lighthouse has its own shareable link.
+- Works on phones, with the map, list and details on their own tabs.
 <!-- site-summary:end -->
 
 <!-- site-icon: public/favicon.svg -->
